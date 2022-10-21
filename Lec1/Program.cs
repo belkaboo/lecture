@@ -29,13 +29,43 @@ double result = (number1 / number2); // result = 2,4
 Console.WriteLine(result);
 */
 
-
+/*
 Console.Clear();
 int number1 = new Random().Next(1,10); // случайное число от 1 до 9. полуинтервал всегда -1 от мах
 int number2 = new Random().Next(1,10);
 int result = number1 + number2;
 Console.Write($" {number1} + {number2}  = ");
 Console.WriteLine(result);
+*/
+
+/*
+Console.Clear();
+Console.Write("Enter your name: ");
+string username = Console.ReadLine(); // тип переменной для строк
+if (username == "John") // работает только если регистры в каждом символе совпадает
+{
+    Console.WriteLine("hooray, Hi Johnny!");
+}
+else
+{
+    Console.Write("Hi, ");
+    Console.WriteLine(username);
+}
+*/
+
+
+Console.Clear();
+Console.Write("Enter your name: ");
+string username = Console.ReadLine(); 
+if (username.ToLower() == "john") // To.Lower переводит всё в нижний регистр!!!
+{
+    Console.WriteLine("hooray, Hi Johnny!");
+}
+else
+{
+    Console.Write("Hi, ");
+    Console.WriteLine(username);
+}
 
 
 

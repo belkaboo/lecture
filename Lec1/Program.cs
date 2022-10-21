@@ -30,5 +30,12 @@ Console.WriteLine(result);
 */
 
 
+Console.Clear();
+int number1 = new Random().Next(1,10); // случайное число от 1 до 9. полуинтервал всегда -1 от мах
+int number2 = new Random().Next(1,10);
+int result = number1 + number2;
+Console.Write($" {number1} + {number2}  = ");
+Console.WriteLine(result);
+
 
 

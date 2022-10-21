@@ -22,12 +22,14 @@ int result = (number1 / number2); //  result = 2 т.к. типа перемен�
 Console.WriteLine(result);
 */
 
+
 /*
 double number1 = 12; // double -  вещественные числа
 double number2 = 5; 
 double result = (number1 / number2); // result = 2,4
 Console.WriteLine(result);
 */
+
 
 /*
 Console.Clear();
@@ -37,6 +39,7 @@ int result = number1 + number2;
 Console.Write($" {number1} + {number2}  = ");
 Console.WriteLine(result);
 */
+
 
 /*
 Console.Clear();
@@ -54,6 +57,7 @@ else
 */
 
 
+/*
 Console.Clear();
 Console.Write("Enter your name: ");
 string username = Console.ReadLine(); 
@@ -66,6 +70,25 @@ else
     Console.Write("Hi, ");
     Console.WriteLine(username);
 }
+*/
+
+
+
+// определение максимум...тупой метод!
+Console.Clear();
+int a = 1;
+int b = 2;
+int c = 6;
+int d = 8;
+int e = 4;
+int max  = a;
+if (a > max ) max = a;
+if (b > max ) max = b;
+if (c > max ) max = c;
+if (d > max ) max = d;
+if (e > max ) max = e;
+Console.Write("max = ");
+Console.WriteLine(max);
 
 
 

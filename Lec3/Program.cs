@@ -48,3 +48,5 @@ string Method4(int count, string text)
 }
 string res = Method4(10, "text4");
 Console.WriteLine(res);
+
+Console.WriteLine ("")

@@ -75,6 +75,7 @@ else
 
 
 // определение максимум...тупой метод!
+/*
 Console.Clear();
 int a = 1;
 int b = 2;
@@ -89,7 +90,7 @@ if (d > max ) max = d;
 if (e > max ) max = e;
 Console.Write("max = ");
 Console.WriteLine(max);
-
+*/
 
 
 

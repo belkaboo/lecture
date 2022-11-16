@@ -1,4 +1,5 @@
-﻿void Method1()
+﻿
+void Method1()
 {
     Console.WriteLine("Author ...");
 }
@@ -49,4 +50,4 @@ string Method4(int count, string text)
 string res = Method4(10, "text4");
 Console.WriteLine(res);
 
-Console.WriteLine ("")
+Console.WriteLine ("");
